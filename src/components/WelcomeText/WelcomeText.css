@@ -1,10 +1,11 @@
 .welcome-container {
   width: 100vw;
-  height: 400px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  padding-top: 120px;
 }
 .tell-me-more {
   background: #fec810;
@@ -28,4 +29,12 @@
   text-align: center;
   font-weight: 900;
   padding: 10px;
+}
+.drop-down-menu {
+  width: 100%;
+  height: 260px;
+  background-color: #212529;
+  position: fixed;
+  top: 80px;
+  z-index: 1000;
 }

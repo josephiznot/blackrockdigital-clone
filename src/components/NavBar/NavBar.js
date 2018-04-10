@@ -6,7 +6,6 @@ import Hamburger from "./../Hamburger/Hamburger";
 export default function NavBar() {
   return (
     <div>
-      <div className="nav-bar-hidden" />
       <div className="nav-bar">
         <nav>
           <a>

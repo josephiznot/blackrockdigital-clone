@@ -1,6 +1,7 @@
 header {
   width: 100%;
   height: 500px;
+  margin-top: 25px;
   background-image: url("./header-bg.jpg");
   background-position: center;
   background-size: 800px;

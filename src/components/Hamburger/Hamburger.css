@@ -1,16 +1,16 @@
 .hamburger-container {
-  width: 120px;
-  height: 40px;
+  width: 80px;
+  height: 35px;
   background: #fed136;
   color: white;
-  border-radius: 7px;
+  border-radius: 5px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .triple-big-boy {
-  width: 30px;
-  height: 25px;
+  width: 30;
+  height: 12px;
   border-radius: 7px;
   display: flex;
   flex-direction: column;
@@ -19,13 +19,12 @@
 }
 .layer {
   background: white;
-  width: 30px;
-  height: 5px;
+  width: 15px;
+  height: 2px;
   border-radius: 7px;
 }
 .menu {
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 15px;
 }
 @media (min-width: 992px) {
   .hamburger-container {
