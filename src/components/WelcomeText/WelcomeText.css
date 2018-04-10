@@ -1,0 +1,31 @@
+.welcome-container {
+  width: 100vw;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.tell-me-more {
+  background: #fec810;
+  width: 200px;
+  height: 75px;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.welcome-container h3 {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+.welcome-container h1 {
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 900;
+  padding: 10px;
+}
