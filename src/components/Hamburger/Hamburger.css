@@ -26,6 +26,42 @@
 .menu {
   font-size: 15px;
 }
+.drop-down-menu {
+  width: 100vw;
+  height: 260px;
+  background-color: #212529;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 80px;
+  left: 0;
+  /* margin-top: -100px; */
+  z-index: 1000;
+  opacity: 0.99;
+  animation-name: slide-down;
+  animation-duration: 2s;
+  overflow: hidden;
+}
+.drop-down-menu li {
+  color: white;
+}
+.drop-down-menu ul {
+  height: 240px;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+@keyframes slide-down {
+  from {
+    height: 0px;
+  }
+  to {
+    height: 260px;
+  }
+}
+
 @media (min-width: 992px) {
   .hamburger-container {
     display: none;
